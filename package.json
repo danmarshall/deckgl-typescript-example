@@ -1,0 +1,23 @@
+{
+  "name": "deckgl-typescript-example",
+  "version": "1.0.0",
+  "description": "Example of consuming deck.gl with typescript and typings",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "transpile": "tsc -p .",
+    "bundle": "rollup -c",
+    "build": "npm run transpile && npm run bundle"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "deck.gl": "^5.3.2",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {
+    "deckgl-typings": "git+https://github.com/danmarshall/deckgl-typings.git",
+    "rollup": "^0.61.2",
+    "typescript": "^2.9.2"
+  }
+}
