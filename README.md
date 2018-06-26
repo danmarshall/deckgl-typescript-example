@@ -6,4 +6,4 @@ npm install
 npm run build
 ```
 
-Then open bundle.hml in your browser.
+Then open bundle.html in your browser.
