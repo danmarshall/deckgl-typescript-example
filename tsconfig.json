@@ -3,7 +3,10 @@
         "declaration": true,
         "moduleResolution": "node",
         "outDir": "dist/es6",
-        "target": "es6"
+        "target": "es6",
+        "types": [
+            "deckgl-typings"
+        ]
     },
     "include": [
         "src"

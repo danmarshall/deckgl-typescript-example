@@ -1,5 +1,3 @@
-/// <reference types="deckgl-typings" />
-
 import { DeckGL, OrbitView, PolygonLayer, COORDINATE_SYSTEM } from 'deck.gl';
 
 new DeckGL({
