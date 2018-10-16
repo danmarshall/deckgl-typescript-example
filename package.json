@@ -16,7 +16,7 @@
     "react": "^16.4.1"
   },
   "devDependencies": {
-    "deckgl-typings": "git+https://github.com/danmarshall/deckgl-typings.git",
+    "@danmarshall/deckgl-typings": "^1.4.1",
     "rollup": "^0.61.2",
     "typescript": "^2.9.2"
   }
